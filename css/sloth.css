@@ -43,4 +43,23 @@ li {
   font-size: 25px;
   font-weight: bold;
   list-style-type: none;
+  border-radius: 10px;
+  background-color: #d3c9c9;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px rgb(152, 146, 146);
+  width: auto;
+}
+
+.magic-link {
+  border-style: dashed;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: rgba(82, 52, 52, 0.8);
+  background-color: rgb(91, 176, 91);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
