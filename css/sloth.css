@@ -44,3 +44,16 @@ li {
   font-weight: bold;
   list-style-type: none;
 }
+
+.magic-link {
+  border-style: dashed;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: rgba(82, 52, 52, 0.8);
+  background-color: rgb(91, 176, 91);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
