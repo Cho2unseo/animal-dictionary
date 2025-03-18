@@ -1,4 +1,15 @@
 img {
-  width: 80%;
+  width: 500px;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+.styleWidth {
+  width: 35%;
+}
+div {
+  margin: 0 auto;
+  text-align: center;
 }
 
