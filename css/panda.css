@@ -1,0 +1,80 @@
+/* 기본 스타일 설정 */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/aged-paper.png')
+    #f4e1c1;
+  color: #3e2723;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 컨테이너 스타일 */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 239, 186, 0.9);
+  border-radius: 10px;
+  border: 5px solid #8b5a2b;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 제목 스타일 */
+h1 {
+  font-size: 36px;
+  color: #5d4037;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 서브 제목 스타일 */
+h2 {
+  font-size: 24px;
+  color: #8b4513;
+  margin-top: 20px;
+}
+
+/* 리스트 스타일 */
+ul {
+  text-align: left;
+  padding: 10px 20px;
+  list-style-type: '🐼';
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* 본문 텍스트 */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 이미지 스타일 */
+img {
+  width: 80%;
+  max-width: 400px;
+  border: 5px solid #5d4037;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+}
+
+/* 돌아가기 버튼 스타일 */
+.magic-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #5d4037;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.magic-link:hover {
+  background-color: #8b4513;
+  transform: scale(1.1);
+}
