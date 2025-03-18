@@ -1,0 +1,36 @@
+.profile {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin: auto;
+  display: block;
+}
+
+#introduce {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 80px;
+}
+
+#tree {
+  display: inline;
+  text-align: center;
+  color: rgba(82, 52, 52, 0.8);
+}
+
+#neul {
+  display: inline;
+  text-align: center;
+  color: rgb(91, 176, 91);
+}
+
+body {
+  background-color: rgba(80, 56, 8, 0.638);
+  align-items: center;
+  justify-content: center;
+}
